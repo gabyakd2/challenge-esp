@@ -4,7 +4,7 @@ import React from "react";
 function CenterNav() {
   return (
     <div className="text-center mt-10 pb-28">
-      <h1 className="text-5xl font-bold text-white">Nombre del Hotel</h1>
+      <h1 className="text-4xl sm:text-5xl font-bold text-white">Nombre del Hotel</h1>
       <TextField
         placeholder="Hacer reserva"
         className="w-[400px] mt-7"

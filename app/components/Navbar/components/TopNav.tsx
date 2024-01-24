@@ -4,6 +4,8 @@ import { useStoreNav } from "@/app/store/storeNav/storeNav";
 import { Button, Menu, MenuItem } from "@mui/material";
 import Link from "next/link";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
+import { useTheme, useMediaQuery } from "@mui/material";
+import { Theme } from "@mui/material/styles";
 
 function TopNav() {
   const { anchorEl, setAnchorEl } = useStoreNav();
@@ -16,16 +18,22 @@ function TopNav() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+  const theme = useTheme<Theme>();
+  const isDesktop = useMediaQuery(theme.breakpoints.up("md"));
 
   return (
     <div className="flex justify-around pt-5">
       <p className="text-3xl font-bold text-white">Logo</p>
-      <div className="space-x-8 mt-3 text-white font-semibold">
-        <Link href="#">Home</Link>
-        <Link href="#">Menu</Link>
-        <Link href="#">Eventos</Link>
-        <Link href="#">Servicios</Link>
-      </div>
+      {
+        isDesktop ? (
+          <div className="space-x-8 mt-3 text-white font-semibold">
+            <Link href="#">Home</Link>
+            <Link href="#">Menu</Link>
+            <Link href="#">Eventos</Link>
+            <Link href="#">Servicios</Link>
+          </div>
+        ): null 
+      }
       <Button
         id="basic-button"
         aria-controls={open ? "basic-menu" : undefined}
