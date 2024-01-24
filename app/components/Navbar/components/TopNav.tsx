@@ -3,6 +3,7 @@ import React from "react";
 import { useStoreNav } from "@/app/store/storeNav/storeNav";
 import { Button, Menu, MenuItem } from "@mui/material";
 import Link from "next/link";
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
 
 function TopNav() {
   const { anchorEl, setAnchorEl } = useStoreNav();
@@ -17,9 +18,9 @@ function TopNav() {
   };
 
   return (
-    <div className="flex justify-around mt-5">
-      <p className="text-2xl font-bold">Logo</p>
-      <div className="space-x-8">
+    <div className="flex justify-around pt-5">
+      <p className="text-3xl font-bold text-white">Logo</p>
+      <div className="space-x-8 mt-3 text-white font-semibold">
         <Link href="#">Home</Link>
         <Link href="#">Menu</Link>
         <Link href="#">Eventos</Link>
@@ -32,7 +33,7 @@ function TopNav() {
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
       >
-        Logo
+        <AccountBoxIcon fontSize="large" style={{ color: "white" }}/>
       </Button>
       <Menu
         id="basic-menu"

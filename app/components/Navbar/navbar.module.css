@@ -1,0 +1,5 @@
+.navContainer{
+  background-image: url("../../images/imageNav/imageNav.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+}
