@@ -1,10 +1,13 @@
 import React from "react";
 import TopNav from "./components/TopNav";
+import CenterNav from "./components/CenterNav";
+import style from "./navbar.module.css";
 
 function Navbar() {
   return (
-    <div>
+    <div className={style.navContainer}>
       <TopNav />
+      <CenterNav />
     </div>
   )
 }
