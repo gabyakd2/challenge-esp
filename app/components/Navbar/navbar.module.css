@@ -1,5 +1,14 @@
-.navContainer{
+.navContainer {
   background-image: url("../../images/imageNav/imageNav.jpg");
   background-attachment: fixed;
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (width <= 1020px) {
+  .navContainer {
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+  }
 }
