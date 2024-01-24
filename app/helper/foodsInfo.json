@@ -1,0 +1,105 @@
+{
+  "sectionFoods": [
+   { 
+    "dinner": [
+      {
+        "name": "Nombre",
+        "image": "https://www.acouplecooks.com/wp-content/uploads/2019/05/Chopped-Salad-001_1.jpg",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://images.immediate.co.uk/production/volatile/sites/30/2023/06/Ultraprocessed-food-58d54c3.jpg?quality=90&webp=true&resize=375,341",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2021/04/Famous-Daves-BBQ-Southside-Rib-Tips-1536x1024.jpg.webp",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://s7g10.scene7.com/is/image/barcelo/mejores%20pizzas%20italia?&&fmt=webp-alpha&qlt=75&wid=2000&fit=crop,1",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://www.minutoneuquen.com/u/fotografias/fotosnoticias/2023/6/14/608242.jpg",
+        "price": "00.00 $"
+      }
+    ]
+  },
+  {
+    "breakfast": [
+      {
+        "name": "Nombre",
+        "image": "https://ombligoparao.cl/wp-content/uploads/2023/08/Receta-de-Cafe-con-Leche-Evaporada.webp",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://images.services.kitchenstories.io/3effZ0fHCnTzzfxbjldDYIetK0I=/1080x0/filters:quality(85)/images.kitchenstories.io/communityImages/f4604e05f6a9eaca99afddd69e849005_c02485d4-0841-4de6-b152-69deb38693f2.jpg",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/loaded-pancake-tacos-1675720416-656e2e17404fd.jpg?crop=1.00xw:0.503xh;0,0.310xh&resize=1200:*",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://www.calgarycoop.com/wp-content/uploads/2023/08/Wk-36-Classic-Breakfast-1.jpg",
+        "price": "00.00 $"
+      }
+    ]
+  },
+  {
+    "dessert": [
+      {
+        "name": "Nombre",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/no-bake-buckeye-cheesecake-bars-lead-64b5646b6b074.jpg?crop=1.00xw:0.502xh;0,0.250xh&resize=1200:*",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipemediafiles/recipes/retail/x17/17244-caramel-topped-ice-cream-dessert-600x600.jpg?ext=.jpg",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://houseofnasheats.com/wp-content/uploads/2023/03/Oreo-Dessert-Recipe-24.jpg",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://img.allw.mn/thumbs/00/surd8r8ca2rka63zdt9in_1080_1225.jpg",
+        "price": "00.00 $"
+      }
+    ]
+  },
+  {
+    "drinks": [
+      {
+        "name": "Nombre",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/aperol-spritz-index-64763b53b0070.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://www.bhg.com/thmb/td1sJuBiDnPWOEEmX4An8qnEoRg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/RU295956-1d723e82136f4ee384822133868acb9f.jpg",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/martini-cocktail-royalty-free-image-1696964365.jpg?crop=0.974xw:0.813xh;0,0.0874xh&resize=980:*",
+        "price": "00.00 $"
+      },
+      {
+        "name": "Nombre",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/boozy-cold-refreshing-rum-daiquiri-royalty-free-image-1696958016.jpg?crop=0.536xw:1.00xh;0.172xw,0&resize=980:*",
+        "price": "00.00 $"
+      }
+    ]
+  }
+  ]
+}
